@@ -85,7 +85,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.incrapcorr;
+})();
 })();
 </script>
 ```
@@ -153,6 +155,7 @@ v = accumulator();
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-apcorr@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var accumulator;
 var x;
@@ -170,6 +173,7 @@ for ( i = 0; i < 100; i++ ) {
 }
 console.log( accumulator() );
 
+})();
 })();
 </script>
 </body>
@@ -271,11 +275,11 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/stats/incr/mapcorr]: https://github.com/stdlib-js/stats-incr-mapcorr/tree/umd
+[@stdlib/stats/incr/mapcorr]: https://github.com/stdlib-js/stats-incr-mapcorr/tree/umd/tree/umd
 
-[@stdlib/stats/incr/pcorr]: https://github.com/stdlib-js/stats-incr-pcorr/tree/umd
+[@stdlib/stats/incr/pcorr]: https://github.com/stdlib-js/stats-incr-pcorr/tree/umd/tree/umd
 
-[@stdlib/stats/incr/pcorr2]: https://github.com/stdlib-js/stats-incr-pcorr2/tree/umd
+[@stdlib/stats/incr/pcorr2]: https://github.com/stdlib-js/stats-incr-pcorr2/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
