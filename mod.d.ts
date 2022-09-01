@@ -18,7 +18,7 @@
 
 // TypeScript Version: 2.0
 
-/// <reference types="@stdlib/types"/>
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@main/index.d.ts"/>
 
 /**
 * If provided arguments, returns an updated sample absolute Pearson product-moment correlation coefficient; otherwise, returns the current sample absolute Pearson product-moment correlation coefficient.
