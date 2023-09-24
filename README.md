@@ -82,7 +82,7 @@ The sample **absolute** [Pearson product-moment correlation coefficient][pearson
 ## Usage
 
 ```javascript
-import incrapcorr from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-apcorr@deno/mod.js';
+import incrapcorr from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-apcorr@v0.1.0-deno/mod.js';
 ```
 
 #### incrapcorr( \[mx, my] )
@@ -142,7 +142,7 @@ v = accumulator();
 
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import incrapcorr from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-apcorr@deno/mod.js';
+import incrapcorr from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-apcorr@v0.1.0-deno/mod.js';
 
 var accumulator;
 var x;
